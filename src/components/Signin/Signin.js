@@ -20,7 +20,7 @@ class Signin extends Component {
 	}
 
 	onSubmitSignin = () => {
-		fetch('https://sheltered-coast-33122.herokuapp.com/signin', {
+		fetch('https://smartbrain-api-server.onrender.com/signin', {
 			method: 'post',
 			headers: {'Content-Type': 'application/json'},
 			body: JSON.stringify({

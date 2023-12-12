@@ -25,7 +25,7 @@ class Register extends Component {
 	}
 
 	onRegister = () => {
-		fetch('https://sheltered-coast-33122.herokuapp.com/register', {
+		fetch('https://smartbrain-api-server.onrender.com/register', {
 			method: 'post',
 			headers: {'Content-Type': 'application/json'},
 			body: JSON.stringify({
